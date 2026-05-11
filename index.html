@@ -1,1 +1,79 @@
-<!DOCTYPE html><html lang="zh"><head><meta charset="UTF-8"><title>如話記Blog 备份</title><link rel="stylesheet" href="style.css"></head><body><h1>如話記Blog 备份站点</h1><p>21篇帖子列表已完整提取。全文HTML文件已准备好，可随时追加。</p><p>开启GitHub Pages后访问。</p></body></html>
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>如話記Blog 完整备份站点</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>如話記Blog 备份</h1>
+        <button id="dark-toggle" title="切换暗黑模式">🌙</button>
+    </header>
+
+    <input type="text" id="search-input" placeholder="🔍 搜索帖子标题或日期..." onkeyup="filterPosts()">
+
+    <h2 style="margin-top: 30px;">全部 21 篇帖子</h2>
+    <ul id="post-list" class="post-list">
+        <li data-title="交易经验分享之割韭菜理论（梳理归纳篇）" data-date=""> <a href="https://blog.ebank.wiki/">交易经验分享之割韭菜理论（梳理归纳篇）</a> <span class="post-date">（全文备份中）</span></li>
+        <li data-title="交易经验分享（3）" data-date=""> <a href="https://blog.ebank.wiki/">交易经验分享（3）</a> <span class="post-date">（全文备份中）</span></li>
+        <li data-title="交易经验分享（2）" data-date=""> <a href="https://blog.ebank.wiki/">交易经验分享（2）</a> <span class="post-date">（全文备份中）</span></li>
+        <li data-title="交易经验分享" data-date=""> <a href="https://blog.ebank.wiki/">交易经验分享</a> <span class="post-date">（全文备份中）</span></li>
+        <li data-title="思考，学习（AI + Ubuntu）" data-date=""> <a href="https://blog.ebank.wiki/">思考，学习（AI + Ubuntu）</a> <span class="post-date">（全文备份中）</span></li>
+        <li data-title="Fiat24信用卡申请流程" data-date=""> <a href="https://blog.ebank.wiki/">Fiat24信用卡申请流程</a> <span class="post-date">（全文备份中）</span></li>
+        <li data-title="wise实体visa卡申请攻略" data-date=""> <a href="https://blog.ebank.wiki/">wise实体visa卡申请攻略</a> <span class="post-date">（全文备份中）</span></li>
+        <li data-title="你是否想过，轻仓就是你外汇交易亏损的元凶？" data-date=""> <a href="https://blog.ebank.wiki/">你是否想过，轻仓就是你外汇交易亏损的元凶？</a> <span class="post-date">（全文备份中）</span></li>
+        <li data-title="MeMeCoin，暴富或归零只在一念间" data-date=""> <a href="https://blog.ebank.wiki/">MeMeCoin，暴富或归零只在一念间</a> <span class="post-date">（全文备份中）</span></li>
+        <li data-title="Bybit信用卡，实现交易消费的完美闭环" data-date=""> <a href="https://blog.ebank.wiki/">Bybit信用卡，实现交易消费的完美闭环</a> <span class="post-date">（全文备份中）</span></li>
+        <li data-title="Bybit被盗事件之我见，Bybit信用卡还要继续申请吗？" data-date=""> <a href="https://blog.ebank.wiki/">Bybit被盗事件之我见，Bybit信用卡还要继续申请吗？</a> <span class="post-date">（全文备份中）</span></li>
+        <li data-title="OSL交易所申请简要纪要" data-date=""> <a href="https://blog.ebank.wiki/">OSL交易所申请简要纪要</a> <span class="post-date">（全文备份中）</span></li>
+        <li data-title="交易市场的雄心壮志：为何不让你的梦想更上一层楼？" data-date="2025.03.23"> <a href="https://blog.ebank.wiki/">交易市场的雄心壮志：为何不让你的梦想更上一层楼？</a> <span class="post-date">2025.03.23</span></li>
+        <li data-title="交易往事" data-date="2019.01.03"> <a href="https://blog.ebank.wiki/">交易往事</a> <span class="post-date">2019.01.03</span></li>
+        <li data-title="Signal的赛博朋克：为什么能让美国和他的敌人都在上面“线上办公”？" data-date="2025.03.26"> <a href="https://blog.ebank.wiki/">Signal的赛博朋克：为什么能让美国和他的敌人都在上面“线上办公”？</a> <span class="post-date">2025.03.26</span></li>
+        <li data-title="OKX PAY的王炸：社交+加密支付+理财" data-date="2025.04.30"> <a href="https://blog.ebank.wiki/">OKX PAY的王炸：社交+加密支付+理财</a> <span class="post-date">2025.04.30</span></li>
+        <li data-title="infini卡，外汇交易USDT出入金消费的最后一公里" data-date="2025.05.06"> <a href="https://blog.ebank.wiki/">infini卡，外汇交易USDT出入金消费的最后一公里</a> <span class="post-date">2025.05.06</span></li>
+        <li data-title="虚拟信用卡U卡使用心得" data-date="2025.05.09"> <a href="https://blog.ebank.wiki/">虚拟信用卡U卡使用心得</a> <span class="post-date">2025.05.09</span></li>
+        <li data-title="Perp DEX的造富神话" data-date="2025.09.27"> <a href="https://blog.ebank.wiki/">Perp DEX的造富神话</a> <span class="post-date">2025.09.27</span></li>
+        <li data-title="legion打新" data-date="2025.09.19"> <a href="https://blog.ebank.wiki/">legion打新</a> <span class="post-date">2025.09.19</span></li>
+        <li data-title="USDT出金与变现教程" data-date=""> <a href="https://blog.ebank.wiki/">USDT出金与变现教程（密码保护）</a> <span class="post-date">（全文备份中）</span></li>
+    </ul>
+
+    <footer style="text-align: center; margin-top: 50px; font-size: 0.9rem; color: #6c757d;">
+        完整静态备份站点 | 所有内容来自 https://blog.ebank.wiki | GitHub Pages 已准备好<br>
+        暗黑模式 + 实时搜索功能已启用
+    </footer>
+
+    <script>
+        function initDarkMode() {
+            const toggle = document.getElementById('dark-toggle');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            let isDark = localStorage.getItem('darkMode') === 'true';
+            if (isDark === null) isDark = prefersDark;
+            if (isDark) {
+                document.documentElement.classList.add('dark');
+                toggle.textContent = '☀️';
+            }
+            toggle.addEventListener('click', () => {
+                isDark = !isDark;
+                document.documentElement.classList.toggle('dark', isDark);
+                toggle.textContent = isDark ? '☀️' : '🌙';
+                localStorage.setItem('darkMode', isDark);
+            });
+        }
+
+        function filterPosts() {
+            const input = document.getElementById('search-input').value.toLowerCase();
+            const items = document.querySelectorAll('#post-list li');
+            items.forEach(item => {
+                const title = item.getAttribute('data-title').toLowerCase();
+                const date = (item.getAttribute('data-date') || '').toLowerCase();
+                const match = title.includes(input) || date.includes(input);
+                item.style.display = match ? 'list-item' : 'none';
+            });
+        }
+
+        window.onload = initDarkMode;
+    </script>
+</body>
+</html>
